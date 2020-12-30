@@ -2,7 +2,7 @@
   "name": "darcula-code",
   "displayName": "DarculaCode",
   "description": "Adaption of the JetBrains Darcula theme for VS Code",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.49.0"
   },

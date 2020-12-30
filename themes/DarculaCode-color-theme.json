@@ -887,6 +887,8 @@
         "variable.other.object.ts",
         "meta.block.js variable.other.readwrite.js",
         "meta.block.js variable.other.readwrite.ts",
+        "variable.other.readwrite.js",
+        "variable.other.readwrite.ts",
         "variable.other.readwrite.alias.js",
         "variable.other.readwrite.alias.ts",
         "variable.parameter.js",
@@ -1563,9 +1565,7 @@
         "support.constant.math.js",
         "support.constant.math.ts",
         "variable.other.constant.js",
-        "variable.other.constant.ts",
-        "variable.other.readwrite.js",
-        "variable.other.readwrite.ts"
+        "variable.other.constant.ts"
       ],
       "settings": {
         "foreground": "#9876aa",
@@ -1798,7 +1798,10 @@
       "fontStyle": "italic"
     },
     "namespace:javascript": "#a9b7c6",
-    "parameter:javascript": "#a9b7c6",
+    "parameter:javascript": {
+      "foreground": "#a9b7c6",
+      "fontStyle": ""
+    },
     "property:javascript": "#9876aa",
     "property.static:javascript": {
       "foreground": "#9876aa",
