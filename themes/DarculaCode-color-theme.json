@@ -233,8 +233,6 @@
     "gitDecoration.submoduleResourceForeground": "#9876aa",
     "gitDecoration.untrackedResourceForeground": "#d1675a",
     // Gitlens (to be completed)
-    "gitlens.gutterBackgroundColor": "#313335",
-    "gitlens.gutterForegroundColor": "#a4a3a3",
     // Icon
     "icon.foreground": "#bbb",
     // Input (text input box)
@@ -300,7 +298,7 @@
     "notificationCenter.border": "#616161",
     "notificationCenterHeader.background": "#3c3f41",
     "notificationCenterHeader.foreground": "#bbb",
-    "notificationLink.foreground": "#ff0000",
+    "notificationLink.foreground": "#589df6",
     "notificationToast.border": "#616161",
     "notificationsErrorIcon.foreground": "#ff6464",
     "notificationsInfoIcon.foreground": "#589df6",
