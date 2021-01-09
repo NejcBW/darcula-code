@@ -1680,7 +1680,10 @@
     // that is available by using the sopes defined in the TextMate grammar.
     // This is especially true for keywords, strings, punctuation, etc.
     // Module scope is also not included because I have no idea what does this represent.
-    "namespace:csharp": "#a9b7c6",
+    "class:csharp": {
+      "foreground": "#a9b7c6",
+      "fontStyle": ""
+    },
     "delegate:csharp": "#a9b7c6",
     "enum:charp": "#a9b7c6",
     "enumMember:csharp": {
@@ -1705,7 +1708,7 @@
       "foreground": "#ffc66d",
       "fontStyle": "italic"
     },
-    "module:csharp": "#ff0000",
+    "namespace:csharp": "#a9b7c6",
     "number:csharp": "#6897bb",
     "operatorOverloaded:csharp": "#ffc66d",
     "parameter:csharp": "#a9b7c6",

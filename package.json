@@ -2,9 +2,9 @@
   "name": "darcula-code",
   "displayName": "DarculaCode",
   "description": "Adaption of the JetBrains Darcula theme for VS Code",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
-    "vscode": "^1.49.0"
+    "vscode": "^1.52.1"
   },
   "author": {
     "name": "Nejc Brelih-Wasowski"
