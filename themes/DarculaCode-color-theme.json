@@ -525,8 +525,6 @@
         "constant.numeric.other.density.css",
         "punctuation.definition.entity.css",
         "variable.font-feature.css",
-        // HTML
-        "punctuation.definition.tag.html",
         // JavaScript & TypeScript
         "support.constant.js",
         "support.constant.ts",
@@ -1278,6 +1276,7 @@
         "variable.parameter.style-name.css",
         // HTML
         "entity.name.tag.html",
+        "punctuation.definition.tag.html",
         "punctuation.definition.tag.begin.html",
         "punctuation.definition.tag.end.html",
         // RegExp

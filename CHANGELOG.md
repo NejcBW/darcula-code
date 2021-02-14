@@ -4,6 +4,10 @@ All notable changes to the "DarculaCode" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.4] - 2021-02-14
+
+- Fixed "punctuation.definition.tag.html" missing rule
+
 ## [1.0.3] - 2021-01-09
 
 - Added class:chasp semantic rule
