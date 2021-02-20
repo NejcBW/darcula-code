@@ -1776,7 +1776,8 @@
     },
     "type:typescript": "#a9b7c6",
     "typeParameter:typescript": "#20999d",
-    "variable:typescript": {
+    "variable:typescript": "#9876aa",
+    "variable.declaration:typescript": {
       "foreground": "#9876aa",
       "fontStyle": "bold italic"
     },
@@ -1816,12 +1817,51 @@
     },
     "type:javascript": "#a9b7c6",
     "typeParameter:javascript": "#20999d",
-    "variable:javascript": {
+    "variable:javascript": "#9876aa",
+    "variable.declaration:javascript": {
       "foreground": "#9876aa",
       "fontStyle": "bold italic"
     },
     "variable.local:javascript": { "foreground": "#a9b7c6", "fontStyle": "" },
     "variable.defaultLibrary:javascript": {
+      "foreground": "#9876aa",
+      "fontStyle": "bold italic"
+    },
+    // Vue
+    "class:vue": "#a9b7c6",
+    "class.defaultLibrary:vue": {
+      "foreground": "#9876aa",
+      "fontStyle": "bold italic"
+    },
+    "enum:vue": "#a9b7c6",
+    "enumMember:vue": {
+      "foreground": "#9876aa",
+      "fontStyle": "italic"
+    },
+    "function:vue": "#ffc66d",
+    "function.defaultLibrary:vue": "#ffc66d",
+    "interface:vue": "#a9b7c6",
+    "method:vue": "#ffc66d",
+    "method.static:vue": {
+      "foreground": "#ffc66d",
+      "fontStyle": "italic"
+    },
+    "namespace:vue": "#a9b7c6",
+    "parameter:vue": "#a9b7c6",
+    "property:vue": "#9876aa",
+    "property.static:vue": {
+      "foreground": "#9876aa",
+      "fontStyle": "italic"
+    },
+    "type:vue": "#a9b7c6",
+    "typeParameter:vue": "#20999d",
+    "variable:vue": "#9876aa",
+    "variable.declaration:vue": {
+      "foreground": "#9876aa",
+      "fontStyle": "bold italic"
+    },
+    "variable.local:vue": { "foreground": "#a9b7c6", "fontStyle": "" },
+    "variable.defaultLibrary:vue": {
       "foreground": "#9876aa",
       "fontStyle": "bold italic"
     },

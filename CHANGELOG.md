@@ -4,6 +4,10 @@ All notable changes to the "DarculaCode" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.6] - 2021-02-20
+
+- variable:typescript highlighting fixed
+
 ## [1.0.5] - 2021-02-14
 
 - Added some missing html rules needed for \*.vue files to highlight correctly when using Volar extension.
