@@ -1,0 +1,369 @@
+{
+  "name": "Fake",
+  "type": "light",
+  "semanticHighlighting": true,
+  "tokenColors": [
+    {
+      "name": "#808080",
+      "scope": [
+        // C#
+        "comment.block.cs",
+        "comment.line.double-slash.cs"
+      ],
+      "settings": {
+        "foreground": "#808080",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "#A9B7C6",
+      "scope": [
+        // C#
+        "entity.name.type.alias.cs",
+        "entity.name.type.delegate.cs",
+        "entity.name.type.enum.cs",
+        "entity.name.type.interface.cs",
+        "entity.name.type.namespace.cs",
+        "entity.name.type.struct.cs",
+        "entity.name.variable.preprocessor.symbol.cs",
+        "entity.name.label.cs",
+        "entity.name.variable.local.cs",
+        "entity.name.variable.parameter.cs",
+        "entity.name.variable.range-variable.cs",
+        "entity.name.variable.range-variable.cs",
+        "entity.name.type.class.cs",
+        "keyword.operator.arithmetic.cs",
+        "keyword.operator.arrow.cs",
+        "keyword.operator.assignment.compound.bitwise.cs",
+        "keyword.operator.assignment.compound.cs",
+        "keyword.operator.assignment.cs",
+        "keyword.operator.bitwise.cs",
+        "keyword.operator.bitwise.shift.cs",
+        "keyword.operator.comparison.cs",
+        "keyword.operator.conditional.colon.cs",
+        "keyword.operator.conditional.question-mark.cs",
+        "keyword.operator.decrement.cs",
+        "keyword.operator.increment.cs",
+        "keyword.operator.logical.cs",
+        "keyword.operator.null-coalescing.cs",
+        "keyword.operator.null-conditional.cs",
+        "keyword.operator.relational.cs",
+        "keyword.preprocessor.checksum.cs",
+        "keyword.preprocessor.default.cs",
+        "keyword.preprocessor.disable.cs",
+        "keyword.preprocessor.hidden.cs",
+        "keyword.preprocessor.load.cs",
+        "keyword.preprocessor.r.cs",
+        "keyword.preprocessor.restore.cs",
+        "punctuation.accessor.cs",
+        "punctuation.curlybrace.close.cs",
+        "punctuation.curlybrace.open.cs",
+        "punctuation.parenthesis.close.cs",
+        "punctuation.parenthesis.open.cs",
+        "punctuation.separator.question-mark.cs",
+        "punctuation.separator.question-mark.cs",
+        "punctuation.squarebracket.close.cs",
+        "punctuation.squarebracket.open.cs",
+        "punctuation.separator.colon.cs",
+        "punctuation.separator.coloncolon.cs",
+        "punctuation.separator.dot.cs",
+        "punctuation.tilde.cs",
+        "string.unquoted.preprocessor.message.cs",
+        "variable.other.object.cs",
+        "entity.name.type.type-parameter.cs",
+        "punctuation.definition.typeparameters.begin.cs",
+        "punctuation.definition.typeparameters.end.cs",
+        "storage.type.cs"
+      ],
+      "settings": {
+        "foreground": "#a9b7c6",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "#CC7832 (orange)",
+      "scope": [
+        // C#
+        "punctuation.separator.comma.cs",
+        "punctuation.separator.hash.cs",
+        "punctuation.terminator.statement.cs",
+        "keyword.control.case.cs",
+        "keyword.control.conditional.else.cs",
+        "keyword.control.conditional.if.cs",
+        "keyword.control.default.cs",
+        "keyword.control.flow.break.cs",
+        "keyword.control.flow.continue.cs",
+        "keyword.control.flow.return.cs",
+        "keyword.control.flow.throw.cs",
+        "keyword.control.flow.yield.cs",
+        "keyword.control.goto.cs",
+        "keyword.control.loop.do.cs",
+        "keyword.control.loop.for.cs",
+        "keyword.control.loop.foreach.cs",
+        "keyword.control.loop.in.cs",
+        "keyword.control.loop.while.cs",
+        "keyword.control.switch.cs",
+        "keyword.control.try.catch.cs",
+        "keyword.control.try.cs",
+        "keyword.control.try.finally.cs",
+        "keyword.control.try.when.cs",
+        "keyword.other.add.cs",
+        "keyword.other.alias.cs",
+        "keyword.other.as.cs",
+        "keyword.other.attribute-specifier.cs",
+        "keyword.other.await.cs",
+        "keyword.other.base.cs",
+        "keyword.other.checked.cs",
+        "keyword.other.class.cs",
+        "keyword.other.default.cs",
+        "keyword.other.delegate.cs",
+        "keyword.other.enum.cs",
+        "keyword.other.event.cs",
+        "keyword.other.explicit.cs",
+        "keyword.other.extern.cs",
+        "keyword.other.implicit.cs",
+        "keyword.other.interface.cs",
+        "keyword.other.is.cs",
+        "keyword.other.lock.cs",
+        "keyword.other.nameof.cs",
+        "keyword.other.namespace.cs",
+        "keyword.other.new.cs",
+        "keyword.other.operator-decl.cs",
+        "keyword.other.remove.cs",
+        "keyword.other.static.cs",
+        "keyword.other.struct.cs",
+        "keyword.other.this.cs",
+        "keyword.other.typeof.cs",
+        "keyword.other.unchecked.cs",
+        "keyword.other.using.cs",
+        "keyword.other.var.cs",
+        "keyword.other.where.cs",
+        "keyword.query.ascending.cs",
+        "keyword.query.by.cs",
+        "keyword.query.descending.cs",
+        "keyword.query.equals.cs",
+        "keyword.query.from.cs",
+        "keyword.query.group.cs",
+        "keyword.query.in.cs",
+        "keyword.query.into.cs",
+        "keyword.query.join.cs",
+        "keyword.query.let.cs",
+        "keyword.query.on.cs",
+        "keyword.query.orderby.cs",
+        "keyword.query.select.cs",
+        "keyword.query.where.cs",
+        "keyword.type.cs",
+        "storage.modifier.cs",
+        "constant.language.boolean.false.cs",
+        "constant.language.boolean.true.cs",
+        "constant.language.null.cs",
+        "keyword.preprocessor.define.cs",
+        "keyword.preprocessor.elif.cs",
+        "keyword.preprocessor.else.cs",
+        "keyword.preprocessor.endif.cs",
+        "keyword.preprocessor.endregion.cs",
+        "keyword.preprocessor.error.cs",
+        "keyword.preprocessor.if.cs",
+        "keyword.preprocessor.line.cs",
+        "keyword.preprocessor.pragma.cs",
+        "keyword.preprocessor.region.cs",
+        "keyword.preprocessor.undef.cs",
+        "keyword.preprocessor.warning.cs",
+        "constant.character.escape.cs"
+      ],
+      "settings": {
+        "foreground": "#cc7832",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "#FFC66D",
+      "scope": [
+        // C#
+        "keyword.other.get.cs",
+        "keyword.other.set.cs",
+        "entity.name.function.cs"
+      ],
+      "settings": {
+        "foreground": "#ffc66d",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "#E8BF6A",
+      "scope": [
+        // RegExp
+        "punctuation.definition.group.regexp"
+      ],
+      "settings": {
+        "foreground": "#e8bf6a",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "#629755 italic",
+      "scope": [
+        // C#
+        "comment.block.documentation.cs",
+        "constant.character.entity.cs",
+        "punctuation.separator.equals.cs",
+        "string.unquoted.cdata.cs"
+      ],
+      "settings": {
+        "foreground": "#629755",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "#629755 bold italic",
+      "scope": [
+        // C#
+        "entity.other.attribute-name.cs",
+        "entity.other.attribute-name.localname.cs",
+        "entity.other.attribute-name.namespace.cs"
+      ],
+      "settings": {
+        "foreground": "#629755",
+        "fontStyle": "italic bold underline"
+      }
+    },
+    {
+      "name": "#6A8759 (string green)",
+      "scope": [
+        // C#
+        "string.quoted.double.cs",
+        "string.quoted.single.cs",
+        "punctuation.definition.char.begin.cs",
+        "punctuation.definition.char.end.cs",
+        "punctuation.definition.string.begin.cs",
+        "punctuation.definition.string.end.cs"
+      ],
+      "settings": {
+        "foreground": "#6a8759",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "#77B767 italic",
+      "scope": [
+        // C#
+        "entity.name.tag.cs",
+        "entity.name.tag.localname.cs",
+        "entity.name.tag.cs",
+        "punctuation.definition.tag.cs"
+      ],
+      "settings": {
+        "foreground": "#77b767",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "#6D9CBE",
+      "scope": [],
+      "settings": {
+        "foreground": "#6d9cbe",
+        "fontStyle": ""
+      }
+    },
+    {
+      "name": "#507874",
+      "scope": [
+        // JavaScript & TypeScript
+        "meta.type.parameters.ts entity.name.type.ts"
+      ],
+      "settings": {
+        "foreground": "#507874",
+        "fontStyle": ""
+      }
+    }
+  ],
+  "semanticTokenColors": {
+    // C#
+    // The semantic hightlighting scopes defined by OmniSharp can be found at:
+    // https://github.com/OmniSharp/omnisharp-vscode/blob/master/package.json
+    // https://github.com/OmniSharp/omnisharp-vscode/blob/master/src/features/semanticTokensProvider.ts
+    // Below you can find semantic highlighting mapping as defined in omnisharp-roslyn
+    // https://github.com/OmniSharp/omnisharp-roslyn/blob/master/src/OmniSharp.Roslyn.CSharp/Services/SemanticHighlight/SemanticHighlightService.cs
+    // https://github.com/OmniSharp/omnisharp-roslyn/tree/master/src/OmniSharp.Abstractions/Models/v2/SemanticHighlight
+    // Not all available scopes are used because some of them lack the precision
+    // that is available by using the sopes defined in the TextMate grammar.
+    // This is especially true for keywords, strings, punctuation, etc.
+    // Module scope is also not included because I have no idea what does this represent.
+    "class:csharp": {
+      "foreground": "#a9b7c6",
+      "fontStyle": ""
+    },
+    "delegate:csharp": "#a9b7c6",
+    "enum:charp": "#a9b7c6",
+    "enumMember:csharp": {
+      "foreground": "#9876aa",
+      "fontStyle": "italic"
+    },
+    "excludedCode:csharp": "#72737a",
+    "extensionMethod:csharp": {
+      "foreground": "#ffc66d",
+      "fontStyle": "italic"
+    },
+    "field:csharp": "#9876aa",
+    "field.static:csharp": {
+      "foreground": "#9876aa",
+      "fontStyle": "italic"
+    },
+    "interface:charp": "#a9b7c6",
+    "label:csharp": "#a9b7c6",
+    "local:csharp": "#a9b7c6",
+    "method:charp": "#ffc66d",
+    "method.static:csharp": {
+      "foreground": "#ffc66d",
+      "fontStyle": "italic"
+    },
+    "namespace:csharp": "#a9b7c6",
+    "number:csharp": "#6897bb",
+    "operatorOverloaded:csharp": "#ffc66d",
+    "parameter:csharp": "#a9b7c6",
+    "property:csharp": "#9876aa",
+    "property.static:csharp": "#9876aa",
+    "stringVerbatim:csharp": "#6a8759",
+    "stringEscapeCharacter:csharp": "#cc7832",
+    "typeParameter:csharp": "#20999d", // as in Kotlin
+    "variable:csharp": "#9876aa",
+    "variable.readonly:csharp": {
+      "foreground": "#9876aa",
+      "fontStyle": "italic"
+    },
+    "xmlDocCommentAttributeName:csharp": {
+      "foreground": "#629755",
+      "fontStyle": "italic underline"
+    },
+    "xmlDocCommentAttributeQuotes:csharp": "#8a653b",
+    "xmlDocCommentAttributeValue:csharp": "#8a653b",
+    "xmlDocCommentCDataSection:csharp": "#629755",
+    "xmlDocCommentComment:csharp": "#808080", // customization
+    "xmlDocCommentDelimiter:csharp": {
+      "foreground": "#629755"
+    },
+    "xmlDocCommentEntityReference:csharp": "#629755", // customization
+    "xmlDocCommentName:csharp": {
+      "foreground": "#77b767"
+    },
+    "xmlDocCommentProcessingInstruction:csharp": "#808080", // customization
+    "xmlDocCommentText:csharp": "#629755",
+
+    // ASP.NET Razor
+    "razorComment": "#808080",
+    "razorCommentStar": "#808080",
+    "razorCommentTransition": "#808080",
+    "razorDirective": "#cc7832",
+    "razorDirectiveAttribute": "#bababa",
+    "razorDirectiveColon": "#bababa",
+    "razorTagHelperAttribute": "#cc7832",
+    "razorTagHelperElement": "#cc7832",
+    "razorTransition": "#e8bf6a",
+    "markupAttribute": "#bababa",
+    "markupComment": "#ff0000", // to do
+    "markupCommentPunctuation": "#ff0000", // to do
+    "markupElement": "#e8bf6a",
+    "markupOperator": "#a5c261",
+    "markupTagDelimiter": "#e8bf6a"
+  }
+}

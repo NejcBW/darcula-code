@@ -900,6 +900,7 @@
         "constant.other.character-class.regexp",
         // XML
         "constant.character.parameter-entity.xml",
+        "keyword.other.entity.xml",
         "keyword.other.entitytype.xml",
         "meta.internalsubset.xml",
         "meta.internalsubset.xml constant.character.entity.xml",
@@ -929,7 +930,6 @@
         "keyword.control.flow.block-scalar.literal.yaml",
         "keyword.control.property.anchor.yaml",
         "keyword.other.directive.yaml.yaml",
-        "keyword.other.entity.xml",
         "punctuation.definition.alias.yaml",
         "punctuation.definition.anchor.yaml",
         "punctuation.definition.block.sequence.item.yaml",
