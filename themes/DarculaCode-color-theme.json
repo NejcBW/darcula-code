@@ -59,7 +59,7 @@
     "debugIcon.breakpointDisabledForeground": "#a4a3a3",
     "debugIcon.breakpointForeground": "#c75450",
     "debugIcon.breakpointStackframeForeground": "#ffaa00", // flag in non-current call stack frame
-    "debugIcon.breakpointUnverifiedForeground": "#a4a3a3", // unchecked
+    "debugIcon.breakpointUnverifiedForeground": "#a4a3a3", // little triangle in brakpoints panel
     "debugIcon.continueForeground": "#499c54",
     "debugIcon.disconnectForeground": "#c75450", // unchecked
     "debugIcon.restartForeground": "#499c54",
@@ -69,7 +69,7 @@
     "debugIcon.stepOutForeground": "#3592c4",
     "debugIcon.stepOverForeground": "#3592c4",
     "debugIcon.stopForeground": "#c75450",
-    // Debug Token Expression
+    // Debug Token Expression (under "variables" panel)
     "debugTokenExpression.boolean": "#cc7832",
     "debugTokenExpression.error": "#ff6464",
     "debugTokenExpression.name": "#ff8c7d",
@@ -79,7 +79,7 @@
     // Debug toolbar
     "debugToolBar.background": "#3c3f41",
     "debugToolBar.border": "#464646",
-    // Debug View
+    // Debug View (e.g. in the "call stack" panel)
     "debugView.exceptionLabelBackground": "#c75450",
     "debugView.exceptionLabelForeground": "#fff",
     "debugView.stateLabelBackground": "#5c6164",
@@ -181,20 +181,20 @@
     "editorOverviewRuler.addedForeground": "#447152",
     "editorOverviewRuler.background": "#2b2b2b", // only when minimap enabled
     "editorOverviewRuler.border": "#515151",
-    "editorOverviewRuler.bracketMatchForeground": "#0000", // not used
-    "editorOverviewRuler.commonContentForeground": "#888",
-    "editorOverviewRuler.currentContentForeground": "#35796c",
+    "editorOverviewRuler.bracketMatchForeground": "#0000",
+    "editorOverviewRuler.commonContentForeground": "#888", // common ancestor
+    "editorOverviewRuler.currentContentForeground": "#35796c", // current branch (HEAD)
     "editorOverviewRuler.deletedForeground": "#656e76",
     "editorOverviewRuler.errorForeground": "#9e2927",
     "editorOverviewRuler.findMatchForeground": "#61936f",
-    "editorOverviewRuler.incomingContentForeground": "#356895",
+    "editorOverviewRuler.incomingContentForeground": "#356895", // branch to be merged in
     "editorOverviewRuler.infoForeground": "#1a6dce",
     "editorOverviewRuler.modifiedForeground": "#43698d",
-    "editorOverviewRuler.selectionHighlightForeground": "#0000", // not used
+    "editorOverviewRuler.selectionHighlightForeground": "#0000",
     "editorOverviewRuler.warningForeground": "#be9117",
     "editorOverviewRuler.wordHighlightForeground": "#036b13",
-    "editorOverviewRuler.wordHighlightStrongForeground": "#EF5D837F", // should be 8d4457
-    // Editor Ruler
+    "editorOverviewRuler.wordHighlightStrongForeground": "#EF5D837F", // 8d4457 imitation
+    // Editor Ruler (wrap guide)
     "editorRuler.foreground": "#4d4d4d",
     // Editor Snippet
     "editor.snippetFinalTabstopHighlightBackground": "#214283",
@@ -228,6 +228,7 @@
     "gitDecoration.deletedResourceForeground": "#6c6c6c",
     "gitDecoration.ignoredResourceForeground": "#848504",
     "gitDecoration.modifiedResourceForeground": "#6897bb",
+    "gitDecoration.renamedResourceForeground": "#3a8484",
     "gitDecoration.stageDeletedResourceForeground": "#6c6c6c",
     "gitDecoration.stageModifiedResourceForeground": "#6897bb",
     "gitDecoration.submoduleResourceForeground": "#9876aa",
@@ -264,6 +265,8 @@
     "list.filterMatchBorder": "#0000", // in peak preview on the right
     "list.focusBackground": "#4b6eaf",
     "list.focusForeground": "#eee",
+    "list.focusOutline": "#0000",
+    "list.inactiveFocusOutline": "#0000",
     "list.highlightForeground": "#c9b26380",
     "list.hoverBackground": "#0000",
     "list.hoverForeground": "#bbb",
@@ -272,7 +275,7 @@
     "list.inactiveSelectionForeground": "#bbb",
     "list.invalidItemForeground": "#ff6464",
     "list.warningForeground": "#d9a343",
-    // List Filter Widget
+    // List Filter Widget (start typing in file explorer)
     "listFilterWidget.background": "#6f6f6f",
     "listFilterWidget.noMatchesOutline": "#ff6464",
     "listFilterWidget.outline": "#bbb",
@@ -293,6 +296,8 @@
     "merge.commonHeaderBackground": "#ffffff50",
     // Minimap - not (yet) supported
     // Notebook - not (yet) supported
+    "notebook.cellBorderColor": "#3c3f41",
+    // Progress Bar (in sidebar when opening files etc.)
     "progressBar.background": "#bbb",
     // Notification Center
     "notificationCenter.border": "#616161",
@@ -343,7 +348,7 @@
     "peekViewTitleLabel.foreground": "#bbb",
     // Problems Panel
     "problemsErrorIcon.foreground": "#ff6464",
-    "problemsInfoIcon.foreground": "#589df6", // unchecked
+    "problemsInfoIcon.foreground": "#589df6",
     "problemsWarningIcon.foreground": "#f0a732",
     // Scrollbar
     "scrollbar.shadow": "#0000",
@@ -506,7 +511,10 @@
     // Welcome Page
     "welcomePage.background": "#313335",
     "welcomePage.buttonBackground": "#3c3f41",
-    "welcomePage.buttonHoverBackground": "#27292a",
+    "welcomePage.buttonHoverBackground": "#464a4d",
+    "welcomePage.progress.foreground": "#4b6eaf",
+    "welcomePage.tileBackground": "#313335",
+    "welcomePage.tileHoverBackground": "#464a4d",
     // Widget
     "widget.shadow": "#0000"
     // Window
