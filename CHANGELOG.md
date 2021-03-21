@@ -4,6 +4,11 @@ All notable changes to the "DarculaCode" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.8] - 2021-03-21
+
+- Further work done on IntelliJ Light that now supports all grammars as DarculaCode except C# (to be added later).
+- Added license and acknowledgements.
+
 ## [1.0.7] - 2021-02-28
 
 - One small fix in Darcula and first working draft preview of IntelliJ Light (editor only)

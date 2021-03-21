@@ -1,8 +1,10 @@
 I decided to create this extension in late 2020 because JetBrains Darcula is my favourite color theme out there. However, I could not find any decent implementation of it for VS Code.
 
+I also added IntelliJ Light theme in March 2021.
+
 Supported languages:
 
-- C#
+- C# (IntelliJ Light not yet supported)
 - JavaScript
 - TypeScript
 - HTML
@@ -20,3 +22,9 @@ Unfortunately I am not able to simulate all classification scopes because some o
 There are some minor differences between my implementation and that by JetBrains. For example, string escape characters are orange in e.g. C# but green in YAML. In my implementation they are always orange. Type parameters are green-like in TypeScript but grey in C#. In my implementation they are always green-like.
 
 I am currently not planning to support any other languages because I do not use them.
+
+Both implemented themes are based on the open-source work made by:
+
+- Olga Berdnikova: https://github.com/OlyaB/IntelliJLightTheme
+- Konstantin Bulenkov: https://github.com/bulenkov/Darcula
+  Big thanks to both of them for the great work! Without them this particular extension would never exist.

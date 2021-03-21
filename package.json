@@ -2,9 +2,10 @@
   "name": "darcula-code",
   "displayName": "DarculaCode",
   "description": "Adaption of the Darcula theme for VS Code",
-  "version": "1.0.7",
+  "license": "MIT",
+  "version": "1.0.8",
   "engines": {
-    "vscode": "^1.53.2"
+    "vscode": "^1.54.3"
   },
   "author": {
     "name": "Nejc Brelih-Wasowski"
@@ -21,7 +22,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "IntelliJ Light (working draft)",
+        "label": "IntelliJ Light",
         "uiTheme": "vs",
         "path": "./themes/IntelliJLight-color-theme.json"
       },
