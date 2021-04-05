@@ -4,6 +4,10 @@ All notable changes to the "DarculaCode" extension will be documented in this fi
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
+## [1.0.9] - 2021-04-05
+
+- Fixed list.inactiveFocusBackground
+
 ## [1.0.8] - 2021-03-21
 
 - Further work done on IntelliJ Light that now supports all grammars as DarculaCode except C# (to be added later).

@@ -3,7 +3,7 @@
   "displayName": "DarculaCode",
   "description": "Adaption of the Darcula theme for VS Code",
   "license": "MIT",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "engines": {
     "vscode": "^1.54.3"
   },
